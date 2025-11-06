@@ -18,7 +18,7 @@ export default function Drawer({ open, setOpen, label, content }: props) {
 
             {/* الـ Drawer نفسه */}
             <div
-                className={`fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto bg-white w-[30%] dark:bg-gray-800 
+                className={`fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto bg-white w-[60%] md:w-[30%] dark:bg-gray-800 
         transform transition-transform duration-500 ease-in-out
         ${open ? 'translate-x-0' : 'translate-x-full'}
         `}
